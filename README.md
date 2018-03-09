@@ -75,7 +75,7 @@ In truffle console :
 
 ### Test Output 
 
-    https://drive.google.com/file/d/1miXmop5fa7NKthnHnztbXbGiiPKTNNZK/view?usp=sharing a
+    https://drive.google.com/file/d/1kAetOT5DZ8nCm814OJ9FeQHClBXVtmjk/view?usp=sharing
 
 
 ### Summary:
@@ -88,5 +88,5 @@ In truffle console :
 
 ### Few use full links
 
-https://docs.google.com/document/d/1eVqEO-nRNDD9hUktqolYBfG-MbzMEvZVsEr6sZu6u7U/edit# 
+https://drive.google.com/file/d/18B5xorMOd6AYDxGVlGBYH7uR7y_ZHJPx/view?usp=sharing
 https://www.codeproject.com/Articles/683498/DTDT
