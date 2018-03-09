@@ -43,3 +43,6 @@ In truffle console :
     > test ./test/ballot.js
     Now your test case will pass.
     Keep adding test cases first and then contract codes...
+    
+    Here is ballot.js test file :  https://github.com/Vishwas1/tdd_truffle_bc/blob/master/test/ballot.js
+    Here is Ballot.sol contract file : https://github.com/Vishwas1/tdd_truffle_bc/blob/master/contracts/Ballot.sol 
