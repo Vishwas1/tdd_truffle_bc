@@ -14,11 +14,13 @@ Test-Driven development is a process of developing and running automated test be
 4. Run tests and Refactor code.
 5. Repeat
 
-Truffle comes with built in Mocha test framework and Chai assertion library.
+#### Truffle comes with built in Mocha test framework and Chai assertion library.
+
+### Flow diagram
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Test-driven_development.svg/685px-Test-driven_development.svg.png)
 
-## Steps to follow to start using TDD in Truffle
+### Steps to follow to start using TDD in Truffle
 
 In truffle console :
 
@@ -68,7 +70,7 @@ In truffle console :
     Here is Ballot.sol contract file : https://github.com/Vishwas1/tdd_truffle_bc/blob/master/contracts/Ballot.sol 
     
     
-## Summary:
+### Summary:
 
  - Test driven development is a process of modifying code in order to pass a test designed previously.
  - It more emphasis on production code rather than test case design.
@@ -76,7 +78,7 @@ In truffle console :
  - TDD includes refactoring a code i.e. changing/adding some amount of code to the existing code without affecting the behavior of the code.
  - TDD when used, the code becomes clearer and simple to understand.
 
-## Few use full links
+### Few use full links
 
 https://docs.google.com/document/d/1eVqEO-nRNDD9hUktqolYBfG-MbzMEvZVsEr6sZu6u7U/edit# 
 https://www.codeproject.com/Articles/683498/DTDT
