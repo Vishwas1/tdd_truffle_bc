@@ -91,4 +91,5 @@ In truffle console :
 https://drive.google.com/file/d/18B5xorMOd6AYDxGVlGBYH7uR7y_ZHJPx/view?usp=sharing
 https://www.codeproject.com/Articles/683498/DTDT
 https://michalzalecki.com/ethereum-test-driven-introduction-to-solidity/
+https://www.youtube.com/watch?v=qkblc5WRn-U
 
