@@ -4,17 +4,17 @@ const Ballot =  artifacts.require("./Ballot.sol");
 
 contract('Ballot', function(accounts) {
   let BallotInst;
+  let expiryTime = 30;
   let chairman = accounts[0]; //0x627306090abab3a6e1400e9345bc60c78a8bef57
   let ballotname = 'Test Ballot';
-  let partyAddrs = [accounts[1],accounts[2]];
+  let partyAddrs = [accounts[1],accounts[2], accounts[3]];
   let partyNames = ["Party01", "Party02"];
   let voterAddrs = [accounts[1],accounts[2],accounts[3], accounts[4], accounts[5], accounts[6], 
   accounts[7], accounts[8]];
   
   
   before('getting instance before all Test Cases', async function(){
-    console.log(ballotname);
-    BallotInst = await Ballot.new(ballotname);
+    BallotInst = await Ballot.new(ballotname, expiryTime);
   })
 
   describe('Deploying contract', function () {
@@ -59,7 +59,7 @@ contract('Ballot', function(accounts) {
       }catch(err){
         //console.log(err.toString());
       }
-    })
+    })    
   });
 
   describe('Adding voter to the list and check validity', function(){
@@ -84,7 +84,7 @@ contract('Ballot', function(accounts) {
         await BallotInst.addVoter(voterAddrs[3]);
         await BallotInst.addVoter(voterAddrs[4]);
         await BallotInst.addVoter(voterAddrs[5]);
-
+        await BallotInst.addVoter(voterAddrs[7]);
         //adding voter 0 again
         await BallotInst.addVoter(voterAddrs[0]);
         //test should fail

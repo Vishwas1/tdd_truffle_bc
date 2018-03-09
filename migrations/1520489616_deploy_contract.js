@@ -5,5 +5,5 @@ var Ballot = artifacts.require("./Ballot.sol");
 module.exports = function(deployer) {
   deployer.deploy(Calculator, 10);
   deployer.deploy(FundRaise);
-  deployer.deploy(Ballot, "Test Ballot");
+  deployer.deploy(Ballot, "Test Ballot", 300);
 };
