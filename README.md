@@ -65,11 +65,19 @@ In truffle console :
     > test ./test/ballot.js
     Now your test case will pass.
     Keep adding test cases first and then contract codes...
+        
     
-    Here is ballot.js test file :  https://github.com/Vishwas1/tdd_truffle_bc/blob/master/test/ballot.js
-    Here is Ballot.sol contract file : https://github.com/Vishwas1/tdd_truffle_bc/blob/master/contracts/Ballot.sol 
-    
-    
+### Ballot test and contract files
+
+    https://github.com/Vishwas1/tdd_truffle_bc/blob/master/test/ballot.js 
+    https://github.com/Vishwas1/tdd_truffle_bc/blob/master/contracts/Ballot.sol
+
+
+### Test Output 
+
+    ![alt text](https://drive.google.com/file/d/1miXmop5fa7NKthnHnztbXbGiiPKTNNZK/view)
+
+
 ### Summary:
 
  - Test driven development is a process of modifying code in order to pass a test designed previously.
